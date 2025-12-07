@@ -1,0 +1,56 @@
+/* Jouw eigen stylesheet */
+:root {
+  --paars-donker: #AA5CE0;
+  --paars-licht: #B05CE0;
+  --blauw-accent: #5252EB;
+  --tekst-licht: #f8f9fa; /* Bijna wit, standaard van Bootstrap */
+  --tekst-donker: #212529; /* Bijna zwart, standaard van Bootstrap */
+}
+
+body {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: var(--tekst-donker);
+}
+main {
+  flex-grow: 1;
+}
+
+.navbar {
+  background-color: var(--paars-donker) !important; 
+}
+
+.profielfoto {
+  max-width: 250px;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+aside {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem; 
+}
+
+footer {
+  background-color: #343a40; 
+  color: var(--tekst-licht);
+  padding: 2rem 0;
+  margin-top: auto; 
+}
+
+.project-kaart {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+
+.project-kaart img {
+  max-width: 100%;
+  height: auto;
+}
